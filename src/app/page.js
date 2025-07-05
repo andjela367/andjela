@@ -1,9 +1,12 @@
 import Link from 'next/link';
+import Card from './components/Card';
 
 export default function Home() {
   return (
     <main>
       <h1>Početna</h1>
+      <Card />
+
       <Link href="/proizvodi/cokolada">Čokolada</Link><br />
       <Link href="/proizvodi/kamera">Kamera</Link><br />
       <Link href="/proizvodi/telefon">Telefon</Link><br />
